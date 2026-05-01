@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Kiwi | Nature's Rare Jewel</title>
+    <meta name="description" content="Discover the exquisite taste and health benefits of Ruby Kiwi, the rare red kiwifruit with a berry-like flavor.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">RUBY KIWI</div>
+        <div style="display: flex; align-items: center;">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#inquiry">Inquiry</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="en.html" class="active">EN</a>
+                <span>|</span>
+                <a href="index.html">KO</a>
+            </div>
+        </div>
+        <div class="mobile-menu-btn" style="display: none;"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the Rare, Red Revolution</h1>
+            <p>Naturally vibrant, explosively juicy, and packed with antioxidants. Discover the kiwifruit you never knew existed.</p>
+            <a href="#inquiry" class="btn">Order Now</a>
+        </div>
+    </header>
+
+    <!-- Benefits Section -->
+    <section id="benefits">
+        <div class="section-title reveal">
+            <h2>Nature's Powerhouse</h2>
+            <p>What makes the Ruby Kiwi so special? It's more than just a stunning color.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <i class="fas fa-apple-whole"></i>
+                <h3>Berry-Like Flavor</h3>
+                <p>A unique sweet profile with hints of berries, unlike anything you've tasted before.</p>
+            </div>
+            <div class="feature-card reveal" style="transition-delay: 0.1s;">
+                <i class="fas fa-heart"></i>
+                <h3>Antioxidant Rich</h3>
+                <p>The vibrant red center is rich in anthocyanins, providing powerful health benefits.</p>
+            </div>
+            <div class="feature-card reveal" style="transition-delay: 0.2s;">
+                <i class="fas fa-leaf"></i>
+                <h3>100% Natural</h3>
+                <p>Grown with care in the most fertile soils, ensuring premium quality in every bite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story" class="story">
+        <div class="story-image reveal">
+            <img src="ruby_kiwi_hero.png" alt="Ruby Kiwi Sliced">
+        </div>
+        <div class="story-content reveal">
+            <div class="section-title" style="text-align: left; margin-bottom: 30px;">
+                <h2>The Story of Ruby</h2>
+                <p>From the lush orchards to your table.</p>
+            </div>
+            <p>The Ruby Kiwi is the result of years of natural cultivation. We've captured the essence of the sun and the richness of the earth to bring you a fruit that is as beautiful to look at as it is delicious to eat.</p>
+            <p style="margin-top: 20px;">Every Ruby Kiwi is hand-picked at the peak of ripeness to ensure that the unique flavor and vibrant color are perfectly preserved for your enjoyment.</p>
+            <a href="#benefits" class="btn" style="margin-top: 30px; background-color: var(--kiwi-green);">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Inquiry Section -->
+    <section id="inquiry" class="inquiry">
+        <div class="section-title reveal">
+            <h2 style="color: white;">Get in Touch</h2>
+            <p style="color: rgba(255,255,255,0.7);">Interested in stocking Ruby Kiwi? Send us an inquiry.</p>
+        </div>
+        <div class="inquiry-form reveal">
+            <form>
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 40px 5%; text-align: center; background: #111; color: #555; font-size: 0.9rem;">
+        <p>&copy; 2024 Ruby Kiwi Co. All rights reserved. | <a href="#" style="color: #777;">Privacy Policy</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
